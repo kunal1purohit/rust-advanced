@@ -1,0 +1,15 @@
+# Ignore build artifacts
+target/
+*.rs.bk
+
+# Ignore dependency directories
+/.cargo/
+
+# Ignore editor files
+*.swp
+*.idea
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
