@@ -1,0 +1,8 @@
+[package]
+name = "mongo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mongodb = "2.4.0" # Use the latest stable version of the MongoDB crate
+tokio = { version = "1.0", features = ["full"] } # Asynchronous runtime
