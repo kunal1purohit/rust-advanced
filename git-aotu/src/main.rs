@@ -34,7 +34,7 @@ fn update_commit_push() {
         exit(1);
     }
 
-    println!("sucess all in all")
+    println!("success all in all")
 }
 
 fn name_generator() -> String {
